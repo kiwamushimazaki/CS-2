@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApplication1
+﻿sing System;
 {
-    class Program
+    class MainClass
+{
+    static void Main()
     {
-        static void Main(string[] args)
-        {
+        string temp;
+        double height;
+
+        System Console.Write("身長[cm]を入力してください>>>");
+        temp = System Console.ReadLine();
+        System height = Double.Parse(temp);
+
+        System Console.WriteLine("あなたの標準体重は{0:##.0}Kgです", height * height * 22 / 10000)
+
+
         }
-    }
+}
 }
